@@ -74,6 +74,7 @@ regTheta2 =  Theta2(:,2:end);
 
 error = (lambda/(2*m)) * (sum(sum(regTheta1.^2)) + sum(sum(regTheta2.^2)));
 
+J = J + error;
 
 
 
